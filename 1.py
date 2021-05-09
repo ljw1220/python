@@ -1,0 +1,12 @@
+kor = input("88")
+eng = input("91")
+mat = input("95")
+print("국어", kor)
+print("영어", eng)
+print("수학", mat)
+
+kor = int(input("88"))
+eng = int(input("91"))
+mat = int(input("95"))
+print("총점 : ", (kor + eng + mat))
+print("평균 : ", (kor + eng + mat) / 3)
